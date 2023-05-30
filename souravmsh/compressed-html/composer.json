@@ -1,0 +1,27 @@
+{
+    "name": "souravmsh/compressed-html",
+    "description": "Compressed HTML codes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md. Shohrab Hossain",
+            "email": "sourav.diubd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": { 
+    },
+    "autoload": {
+        "psr-4": {
+            "Souravmsh\\CompressedHtml\\": "src/"
+        }
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "Souravmsh\\CompressedHtml\\PackageServiceProvider"
+          ]
+      }
+  }
+}
