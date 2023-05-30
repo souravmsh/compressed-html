@@ -1,4 +1,4 @@
-name: compressed-html
+name: Laravel
 
 on:
   push:
